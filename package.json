@@ -1,0 +1,24 @@
+{
+  "name": "goblin-bot-staking",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint \"src/**/*.ts\"",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.93.0",
+    "@marinade.finance/marinade-ts-sdk": "^5.0.0",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.9.0",
+    "vitest": "^1.2.0",
+    "ts-node": "^10.9.1",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "@typescript-eslint/eslint-plugin": "^6.17.0"
+  }
+}
